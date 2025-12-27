@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Магазин</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<dialog id="cartDialog" class="dialog">
+  <div class="cart-modal">
+    <div class="cart-modal-head">
+      <h2>Корзина</h2>
+      <button id="closeCart" type="button">Закрыть</button>
+    </div>
+
+    <ul id="cartListModal" class="cart-list"></ul>
+
+    <div class="cart-footer">
+      <div>Итого: <b id="cartTotalModal">0</b> ₽</div>
+      <button id="openOrderFromCart" type="button">Оформить заказ</button>
+    </div>
+  </div>
+</dialog>
+
+
+<body>
+  <header class="header">
+    <h1 class="title">Магазин альбомов Славы КПСС</h1>
+
+    <div class="cart-summary" aria-label="Сводка корзины">
+      <span>В корзине: <b id="cartCount">0</b></span>
+      <span>Сумма: <b id="cartTotal">0</b> ₽</span>
+      <button id="openCart" type="button" class="only-mobile">Корзина (<span id="cartCountBtn">0</span>)</button>
+      <button id="openOrder" type="button">Оформить заказ</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="catalog" aria-labelledby="catalogTitle">
+      <h2 id="catalogTitle">Каталог</h2>
+      <div id="productGrid" class="grid"></div>
+    </section>
+
+    <aside class="cart" aria-labelledby="cartTitle">
+      <h2 id="cartTitle">Корзина</h2>
+      <ul id="cartList" class="cart-list"></ul>
+
+      <div class="cart-footer">
+        <div>Итого: <b id="cartTotal2">0</b> ₽</div>
+      </div>
+    </aside>
+  </main>
+
+  <dialog id="orderDialog" class="dialog">
+    <form id="orderForm" class="order-form" method="dialog">
+      <h2>Оформление заказа</h2>
+
+      <label>
+        Имя
+        <input name="firstName" required autocomplete="given-name" />
+      </label>
+
+      <label>
+        Фамилия
+        <input name="lastName" required autocomplete="family-name" />
+      </label>
+
+      <label>
+        Адрес доставки
+        <input name="address" required autocomplete="street-address" />
+      </label>
+
+      <label>
+        Контактный номер телефона
+        <input name="phone" required inputmode="tel" autocomplete="tel"
+               placeholder="+7 (___) ___-__-__" />
+      </label>
+
+      <menu class="order-actions">
+        <button type="button" id="closeOrder">Отмена</button>
+        <button type="submit">Создать заказ</button>
+      </menu>
+
+      <p id="orderSuccess" class="success" hidden>Заказ создан!</p>
+    </form>
+  </dialog>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+export const products = [
+  { id: 1, title: "Пих-пох (2013)", price: 1990, image: "./assets/img/pih_poh_2013.jpg" },
+  { id: 2, title: "Катафалка (2014)", price: 3490, image: "./assets/img/katafalka_2014.jpg" },
+  { id: 3, title: "Русское поле (2016)", price: 1490, image: "./assets/img/russian_field_2016.jpg" },
+  { id: 4, title: "Трудно быть с Богом (2016)", price: 590, image: "./assets/img/hard_to_be_god_2016.png" },
+  { id: 5, title: "Комар-парижанин — EP (2017)", price: 990, image: "./assets/img/komar_parizhanin_2017.jpg" },
+  { id: 6, title: "Bootleg (2017)", price: 1290, image: "./assets/img/bootleg_2017.jpg" },
+  { id: 7, title: "Солнце мёртвых (2017)", price: 678, image: "./assets/img/sun_of_dead_2017.jpg" },
+
+  { id: 8, title: "Взрослая танцевальная музыка (2018)", price: 7001, image: "./assets/img/adult_dance_music.jpeg" },
+  { id: 9, title: "Бутер Бродский — EP (2019)", price: 564, image: "./assets/img/buter_brodskiy.png" },
+  { id: 10, title: "Демки за которые не заплатили — Maxi Single (2019)", price: 0, image: "./assets/img/demo_they_didntpay.png" },
+  { id: 11, title: "ОТТЕНКИ БАРДА — Mixtape (2019)", price: 1488, image: "./assets/img/shades_of_bard.png" },
+  { id: 12, title: "ЧУДОВИЩЕ ПОГУБИВШЕЕ МИР (2020)", price: 69, image: "./assets/img/monstr_who_killed_the_world.png" },
+  { id: 13, title: "Bootleg, Vol. 2 (2020)", price: 522, image: "./assets/img/bootleg_vol2.png" },
+  { id: 14, title: "Lil Бутер — EP (2021)", price: 239, image: "./assets/img/lil_byter.jpg" },
+  { id: 15, title: "Ангельское True — Mixtape (2022)", price: 889, image: "./assets/img/angels_true.png" },
+  { id: 16, title: "Бутер Бродский 2 — EP (2022)", price: 345, image: "./assets/img/byter_brodskiy2.png" },
+  { id: 17, title: "ГОРГОРОД 2 (2023)", price: 1001, image: "./assets/img/gorgorod2.png" },
+  { id: 18, title: "Любимые Песни Настоящих Людей (2023)", price: 99999, image: "./assets/img/favourite_songs_of_real_people.png" },
+
+  { id: 19, title: "Россия34 (2024)", price: 3400, image: "./assets/img/russia24.png" },
+  { id: 20, title: "Россия24 (2024)", price: 2400, image: "./assets/img/russia34.png" },
+  { id: 21, title: "ОТТЕНКИ БАРДА 2 (2025)", price: 14.98, image: "./assets/img/shades_of_bard2.png" },
+];
