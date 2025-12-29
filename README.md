@@ -1,6 +1,4 @@
-# web_1lab_shop
-# Web Shop — лабораторная №1
-
+# лабораторная №1 web_1lab_shop
 Интернет-магазин на чистых HTML/CSS/JavaScript: каталог товаров, корзина, оформление заказа.  
 Фреймворки (Bootstrap/React/Vue/Angular) не использовались.
 
